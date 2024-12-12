@@ -41,6 +41,7 @@ public class Begginners_exercise {
             secondNumber = sc.nextInt();
             result = firstNumber + secondNumber;
             System.out.printf("SOMA = " + result);
+            sc.close();
         } catch (Exception e) {
             System.err.println(e);
         }
@@ -62,6 +63,7 @@ public class Begginners_exercise {
             radius = sc.nextDouble();
             result = PI * Math.pow(radius, 2);
             System.out.printf("A=%.4f%n", result);
+            sc.close();
         } catch (Exception e) {
             System.err.println(e);
         }
@@ -94,6 +96,7 @@ public class Begginners_exercise {
             sc.nextLine();
             result = (a * b) - (c * d);
             System.out.println("DIFERENCA = " + result);
+            sc.close();
         } catch (Exception e) {
             System.err.println(e);
         }
@@ -125,6 +128,7 @@ public class Begginners_exercise {
             result = hoursWorked * hourlySalary;
             System.out.println("NUMBER = " + employeeNumber);
             System.out.printf("SALARY = U$ %.2f%n", result);
+            sc.close();
         } catch (Exception e) {
             System.err.println(e);
         }
@@ -154,6 +158,7 @@ public class Begginners_exercise {
             sc.nextLine();
             secondPackResult = piecesQuantity * pieceValue;
             System.out.printf("VALOR A PAGAR: R$ %.2f%n", firstPackResult + secondPackResult);
+            sc.close();
         } catch (Exception e) {
             System.err.println(e);
         }
@@ -177,6 +182,7 @@ public class Begginners_exercise {
             System.out.printf("TRAPEZIO: %.3f%n", trapeze);
             System.out.printf("QUADRADO: %.3f%n", square);
             System.out.printf("RETANGULO: %.3f%n", rectangle);
+            sc.close();
         } catch (Exception e) {
             System.err.println(e);
         }
